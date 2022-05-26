@@ -2,6 +2,8 @@
 
 ![](https://assets.tryhackme.com/img/banners/default_tryhackme.png)
 
+---
+
 ## nmap
 
 the service on 5601 is kibana
