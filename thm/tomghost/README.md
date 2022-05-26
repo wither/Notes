@@ -10,7 +10,6 @@
 
 > Exploit tomcat using the ghostcat vulnerability (metasploit) and get the user 'skyfuck' ssh login:
 (skyfuck : 8730281lkjlkjdqlksalks)
-
 ![](images/exploitandssh.png)
 
 ## scp
