@@ -1,14 +1,10 @@
-# TryHackMe Notes
+# Notes
 
-My collection of notes written for TryHackMe, not all are necessarily walkthroughs.
+My notes for all things Penetration Testing. Feel free to read and/or contribute if you feel there's something you can add!
 
-## Rooms
+## Catagories
 
-* [binex](https://github.com/wither/notes/tree/main/thm/binex)
-* [kiba](https://github.com/wither/notes/tree/main/thm/kiba)
-* [res](https://github.com/wither/notes/tree/main/thm/res)
-* [the-marketplace](https://github.com/wither/notes/tree/main/thm/the-marketplace)
-* [tomghost](https://github.com/wither/notes/tree/main/thm/tomghost)
+* [TryHackMe](https://github.com/wither/notes/tree/main/thm)
 
 
 ## 🔗 Links
@@ -17,7 +13,7 @@ My collection of notes written for TryHackMe, not all are necessarily walkthroug
 
 ## To Add
 
-- Recover, reformat and push old notes.
+- Add cheatsheets, learning notes etc.
 
 
 ## License
