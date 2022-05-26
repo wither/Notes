@@ -10,5 +10,6 @@
 
 ## smb enum
 
-use smb-enum-shares nmap script to find hostname and shares
+> use smb-enum-shares nmap script to find hostname and shares
+
 ![](images/smbenum.png)
