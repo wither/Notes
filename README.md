@@ -7,7 +7,8 @@ My notes for all things Penetration Testing. Feel free to read and contribute if
 * [TryHackMe](https://github.com/wither/notes/tree/main/thm)
 
 
-## 🔗 Links
+## Links
+
 [![TryHackMe Profile]()](https://tryhackme.com/p/wither)
 
 
