@@ -1,6 +1,6 @@
 # Notes
 
-My notes for all things Penetration Testing. Feel free to read and/or contribute if you feel there's something you can add!
+My notes for all things Penetration Testing. Feel free to read and contribute if you feel there's something you can add!
 
 ## Catagories
 
