@@ -14,9 +14,9 @@
 
 ![](images/website.png)  
 
-## fuff
+## ffuf
 
-> using fuff hidden a .git directory was found along with its files
+> using ffuf hidden a .git directory was found along with its files
 
 ![](images/git.png)  
 
