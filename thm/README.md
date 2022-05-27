@@ -20,10 +20,10 @@ My collection of writeups for TryHackMe's rooms and walkthrooughs.
 
 ## To Add
 
-[X] Recover, reformat and integrate old notes.
-[X] Decide universal tense/style
-[X] Create index
-[ ] Hack more
+* [X] Recover, reformat and integrate old notes.
+* [X] Decide universal tense/style
+* [X] Create index
+* [ ] Hack more
 
 
 ## Links
