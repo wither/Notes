@@ -13,7 +13,7 @@ My collection of writeups for TryHackMe's rooms and walkthrooughs.
 |kiba               |[Link](https://github.com/wither/notes/tree/main/thm/kiba)                 |Starters     |**prototype pollution**, **capabilities**                                  |
 |MrRobot            |[Link](https://github.com/wither/notes/tree/main/thm/mrrobot)              |Starters     |**wordpress**, **suid**                                                    |
 |nax                |[Link](https://github.com/wither/notes/tree/main/thm/nax)                  |Starters     |**piet**, **cve-2019-15949**                                               |
-|res                |[Link](https://github.com/wither/notes/tree/main/thm/res)                  |Starters     |**redis**, **rce**, **suid**, **/etc/shadow**, **file read**, **file write** |
+|res                |[Link](https://github.com/wither/notes/tree/main/thm/res)                  |Starters     |**redis**, **rce**, **suid**, **file read**, **file write** |
 |the-marketplace    |[Link](https://github.com/wither/notes/tree/main/thm/the-marketplace )     |Starters     |**xss**, **session hijacking**, **sql injection**, **docker**              |
 |tomghost           |[Link](https://github.com/wither/notes/tree/main/thm/tomghost)             |Starters     |**gpg**, **sudo**                                                          |
 |wonderland         |[Link](https://github.com/wither/notes/tree/main/thm/wonderland)           |Wonderland   |**sudo**, **path**, **capabilities**                                       |
