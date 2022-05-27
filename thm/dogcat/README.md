@@ -37,9 +37,7 @@
 ![](images/request.png)
 
 > rce using the php in the user agent
-=======
-=======
->>>>>>> e19cf64 (tense)
+
 ![](images/nmap.png)
 
 ## Website
