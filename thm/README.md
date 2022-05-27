@@ -5,6 +5,8 @@ My collection of notes written for TryHackMe, not all are necessarily walkthroug
 
 ## Rooms
 
+### Starter Series
+
 * [binex](https://github.com/wither/notes/tree/main/thm/binex)
 * [dogcat](https://github.com/wither/notes/tree/main/thm/dogcat)
 * [git-happens](https://github.com/wither/notes/tree/main/thm/git-happens)
@@ -14,6 +16,9 @@ My collection of notes written for TryHackMe, not all are necessarily walkthroug
 * [res](https://github.com/wither/notes/tree/main/thm/res)
 * [the-marketplace](https://github.com/wither/notes/tree/main/thm/the-marketplace)
 * [tomghost](https://github.com/wither/notes/tree/main/thm/tomghost)
+
+### Wonderland Series
+
 * [wonderland](https://github.com/wither/notes/tree/main/thm/wonderland)
 
 
