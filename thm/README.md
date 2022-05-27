@@ -7,17 +7,27 @@ My collection of writeups for TryHackMe's rooms and walkthrooughs.
 
 ## Rooms
 
-  ### Starter Series
+|Name          |   |   |   |
+|--------------|---|---|---|
+|binex         |   |   | [Link](https://github.com/wither/notes/tree/main/thm/binex)   |   |   |
+|dogcat        |   |   | [Link](https://github.com/wither/notes/tree/main/thm/dogcat)   |   |   |
+|git-happens   |   |   | [Link](https://github.com/wither/notes/tree/main/thm/git-happens)   |   |   |
+|kiba          |   |   | [Link](https://github.com/wither/notes/tree/main/thm/kiba)   |   |   |
+|MrRobot       |   |   | [Link](https://github.com/wither/notes/tree/main/thm/mrrobot) |   |   |
+|nax          |   |   | [Link](https://github.com/wither/notes/tree/main/thm/nax) |   |   |
 
-  * [binex](https://github.com/wither/notes/tree/main/thm/binex)
-  * [dogcat](https://github.com/wither/notes/tree/main/thm/dogcat)
-  * [git-happens](https://github.com/wither/notes/tree/main/thm/git-happens)
-  * [kiba](https://github.com/wither/notes/tree/main/thm/kiba)
-  * [mrrobot](https://github.com/wither/notes/tree/main/thm/mrrobot)
-  * [nax](https://github.com/wither/notes/tree/main/thm/nax)
-  * [res](https://github.com/wither/notes/tree/main/thm/res)
-  * [the-marketplace](https://github.com/wither/notes/tree/main/thm/the-marketplace)
-  * [tomghost](https://github.com/wither/notes/tree/main/thm/tomghost)
+
+
+
+### Starter Series
+* 
+* 
+* 
+* 
+* 
+* [res](https://github.com/wither/notes/tree/main/thm/res)
+* [the-marketplace](https://github.com/wither/notes/tree/main/thm/the-marketplace)
+* [tomghost](https://github.com/wither/notes/tree/main/thm/tomghost)
 
 ### Wonderland Series
 
