@@ -8,7 +8,7 @@ My notes for all things Penetration Testing. Feel free to read and contribute if
 
 ## To Add
 
-*[ ] Add cheatsheets, learning notes etc.
+1. Add cheatsheets, learning notes etc.
 
 
 ## License
