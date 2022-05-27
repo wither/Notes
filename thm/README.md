@@ -6,7 +6,7 @@ My collection of writeups for TryHackMe's rooms and walkthrooughs.
 ## Rooms
 
 |Name               |Writeup                                                                    |Series       |Difficulty     |Tags                                                                       |
-|-------------------|---------------------------------------------------------------------------|-------------|-------------|---------------------------------------------------------------------------|colorscolors
+|-------------------|---------------------------------------------------------------------------|-------------|-------------|---------------------------------------------------------------------------|
 |binex              |[Link](https://github.com/wither/notes/tree/main/thm/binex)                |Starters     |Medium     |**smb**, **buffer overflow**                                                 |
 |dogcat             |[Link](https://github.com/wither/notes/tree/main/thm/dogcat)               |Starters     |Medium     |**rfi**, **rce**, **sudo**, **docker**                                      |                                   |
 |git-happens        |[Link](https://github.com/wither/notes/tree/main/thm/git-happens)          |Starters     |Easy     |**git**                                                                    |
