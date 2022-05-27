@@ -6,6 +6,7 @@
 
 ## nmap
 
+<<<<<<< HEAD
 > It's running an Apache webserver, lets check it out
 
 ![](images/nmap.png)
@@ -38,6 +39,8 @@
 
 > rce using the php in the user agent
 =======
+=======
+>>>>>>> e19cf64 (tense)
 ![](images/nmap.png)
 
 ## Website
@@ -73,7 +76,6 @@
 ![](images/request.png)
 
 > Exploit RCE using the php in the user agent
->>>>>>> d42aefa (change tense)
 
 ![](images/useragent.png)
 
@@ -81,13 +83,6 @@
 
 ![](images/shell.png)
 
-<<<<<<< HEAD
-> Get shell!
-
-![](images/shellsuccess.png)
-
-> Get Flag1
-=======
 ## nc
 
 > Run a netcat listener and get a shell
@@ -95,43 +90,11 @@
 ![](images/shellsuccess.png)
 
 ## Flag 1
->>>>>>> d42aefa (change tense)
 
 ![](images/flag1.png)
 
 ## Flag 2
 
-<<<<<<< HEAD
-> Get flag2
-
-![](images/flag2.png)
-
-## Flag 3
-
-> Use sudo -l to list all programs that we can run as root, and use env to get a bash shell
-
-![](images/sudol.png)
-
-> we are root!
-
-![](images/root.png)
-
-> get flag3
-
-![](images/flag3.png)
-
-## Flag 4
-
-> Using cat/proc/1/cgroup we can see that we are in a docker container
-
-![](images/cgroup.png)
-
-> in the /opt/backups folder,backup.sh is being backed up every minute
-
-![](images/backups.png)
-
-> we can overwrite backup.sh to get a reverse shell
-=======
 ![](images/flag2.png)
 
 ## PrivEsc
@@ -157,7 +120,6 @@
 ![](images/backups.png)
 
 > Overwrite backup.sh to get a reverse shell
->>>>>>> d42aefa (change tense)
 
 ![](images/overwrite.png)
 
@@ -165,10 +127,6 @@
 
 ![](images/reverse.png)
 
-<<<<<<< HEAD
-> get flag4!
-=======
 ## Flag 4
->>>>>>> d42aefa (change tense)
 
 ![](images/flag4.png)

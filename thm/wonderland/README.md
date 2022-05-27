@@ -9,7 +9,7 @@
 
 ![](images/ffuf.png)
 
-> found a folder tree called /r/a/b/b/i/t, leads to:
+> Use ffuf to find a folder tree called /r/a/b/b/i/t, leads to
 
 ![](images/rabbit.png)
 
@@ -19,47 +19,42 @@
 
 ## User
 
-> worked
+> Login with credentials
 
 ![](images/sshlogin.png)
 
 ## Privilege Escalation
 
-> rabbit can run the python script found in the home directory as root
-the script uses the random module, create our own random.py to import
+> Rabbit can run the python script found in the home directory as root
+the script uses the random module, create a random.py to import
 
 ![](images/random.png)
 
 ## User 2
 
-> now the rabbit user
+> Now the rabbit user
 
 ![](images/rabbituser.png)
 
-> theres a binary called teaparty in rabbits home directory
-
-![](images/teaparty.png)
-
-> get this when ran
+> Theres a binary called teaparty in rabbits home directory that outputs this when run
 
 ![](images/output.png)
 
-> download teaparty using netcat
+> Download teaparty using netcat
 
 ![](images/download.png)
 
 ![](images/teapartyrun.png)
 
-> using strings we can see the source, it uses 'date' using a path variable maybe its overwritable
+> Use strings to see the source, it uses 'date' using a path variable
 
 ![](images/strings.png)
 
 ## User 3
 
-> make a new directory in rabbits home, make a file called date and add the directory to the PATH variable, so that when 'date' is called in teaParty, it executes the file instead
+> Make a new directory in rabbits home, make a file called date and add the directory to the PATH variable, so that when 'date' is called in teaParty, it executes the file instead
 
 ![](images/path.png)
-![[Pasted image 20220515233145.png]]
 
 ### Root
 
@@ -67,16 +62,16 @@ the script uses the random module, create our own random.py to import
 
 ![](images/hatters.png)
 
-> Using getcap we can list binaries with capabilities set, these can be exploited
+> Use getcap to list binaries with capabilities set
 
 ![](images/getcap.png)
 
-> after switching to the hatter user, using gtfobins' perl capabilities line we can get root
+> After switching to the hatter user, use gtfobins' perl capabilities payloads to get root
 
 ![](images/perlcap.png)
 
 ## Flags!
 
-get em
+> Capture them
 
 ![](images/flags.png)
