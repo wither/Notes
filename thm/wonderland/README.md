@@ -5,10 +5,6 @@
 
 ![](images/nmap.png)
 
-> website:
-
-![](images/website.png)
-
 ## fuff
 
 ![](images/ffuf.png)

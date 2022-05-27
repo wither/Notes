@@ -5,6 +5,7 @@
 
 ## nmap
 
+<<<<<<< HEAD
 > Web server is running, lets check it out.
 
 ![](images/nmap.png)
@@ -19,11 +20,23 @@
 ![](images/ffuf.png)
 
 > Notably, ffuf discovered **robots.txt**, which given the name of the CTF, I think is a priority here.
+=======
+![](images/nmap.png)
+
+## ffuf
+
+>  Scan the url using ffuf
+
+![](images/ffuf.png)
+
+> Notably, ffuf will discover **robots.txt**
+>>>>>>> d42aefa (change tense)
 
 ## Key 1
 
 ![](images/robots.png)
 
+<<<<<<< HEAD
 
 # Key 2
 
@@ -42,12 +55,29 @@
 ![](images/elliott.png)
 
 > Found it!
+=======
+## WPScan
+
+> ffuf will also find a wordpres login form. Use the dictionary file referred to in the robots.txt file ('**fsocity.dic**') to find the username. Remove those.
+
+![](images/wpscan.png)
+
+> Get the user "**Elliott**"
+
+![](images/elliott.png)
+
+> Get his password
+>>>>>>> d42aefa (change tense)
 
 ![](images/found.png)
 
 ## Reverse Shell
 
+<<<<<<< HEAD
 > Now that we've logged in, as you can see here, in the dashboard we are able to edit php files, thus allowing us to upload and run a reverse shell.
+=======
+> Edit the php theme to upload and run a reverse shell.
+>>>>>>> d42aefa (change tense)
  
 ![](images/reverse.png)
 
@@ -63,6 +93,7 @@
 
 ![](images/upgrade.png)
 
+<<<<<<< HEAD
 > get key #2
 
 ![](images/key2.png)
@@ -89,6 +120,24 @@ Search for setuid binaries:
 ![](images/key2yes.png)
 
 > And key3
+=======
+
+# PrivEsc
+
+> Search for setuid binaries
+
+![](images/setuid.png)
+
+> Abuse the nmap binary to get root
+
+![](images/root.png)
+
+## Key 2 
+
+![](images/key2yes.png)
+
+## Key 3
+>>>>>>> d42aefa (change tense)
 
 ![](images/key3.png)
 

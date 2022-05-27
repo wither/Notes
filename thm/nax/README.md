@@ -10,33 +10,31 @@
 
 ## Website
 
-> not much to the website at first glance, however there are some elements.
+> There are periodic elements in the default page.
 
 ![](images/website.png)  
 
 ## Secret file
 
-> I wrote a python program to take the elements and convert each one to their corresponding periodic number, then that number to ascii to get the path to the secret file.
+> Convert each element to their corresponding periodic number, then that number to ascii to get the path to the secret file.
 
 ![](images/piet.png)  
 
-> when I go to that path, this is the image
+> This is the secret file
 
 ![](images/weirdimage.png)  
 
-> using wget and exiftool (https://www.exiftool.org/install.html#Unix), we can download and view the metadata of the file 
+> Download it and view the metadata of the file using exiftool
 
 ![](images/exiftool.png)  
 
-
-> after converting it to ppm, we can use npiet (https://www.bertnase.de/npiet/) to interpret the file into readable text, revealing a username and password.
+> after converting it to ppm using something like gimp, use npiet to interpret the file into readable text, revealing a username and password.
 
 ![](images/npiet.png)  
 
-
 ## Exploit
 
-> using the username and password as well as authenticated rce in metasploit we can get a meterpreter shell 
+> Use the username and password as well as an authenticated RCE exploit in metasploit to get a meterpreter shell
 
 ![](images/meterpreter.png)  
 

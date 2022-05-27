@@ -10,36 +10,31 @@
 
 ## ssh
 
-<<<<<<< HEAD
-> Exploit tomcat using the ghostcat vulnerability (metasploit) and get the user 'skyfuck' ssh login:
-(skyfuck : 8730281lkjlkjdqlksalks)
-=======
- > Exploit tomcat using the ghostcat vulnerability (metasploit) and get the user 'skyfuck' ssh login:
->>>>>>> fe37603 (reformat)
+> Exploit tomcat using the ghostcat vulnerability (metasploit) and get the user 'skyfuck' ssh login
 
 ![](images/exploitandssh.png)
 
 ## scp
 
-> scp the files from /home/skyfuck onto my machine
+> scp the files from /home/skyfuck
 
 ![](images/scp.png)
 
 ## gpgjohn
 
-> Crack the asc file to get hashes that we can later pass into johntheripper
+> Crack the asc file to get hashes
 
 ![](images/gpgjohn.png)
 
 ## john
 
-> crack the hashes to get the passphrase
+> Crack the hashes to get the passphrase
 
 ![](images/john.png)
 
 ## gpg
 
-> import the .asc file to decrypt the credentials to get a new user (merlin : asuyusdoiuqoilkda312j31k2j123j1g23g12k3g12kj3gk12jg3k12j3kj123j)
+> Import the .asc file to decrypt the credentials to get a new user
 
 ![](images/merlin.png)
 
@@ -49,8 +44,8 @@
 
 ## PrivEsc
 
-> sudo -l to show sudo binaries (zip)
-exploit it to escalate privelages (https://gtfobins.github.io/gtfobins/zip/)
+> Sudo -l to show sudo binaries,
+exploit zip to escalate privelages
 
 ![](images/privesc.png)
 

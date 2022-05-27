@@ -6,6 +6,7 @@
 
 ## nmap
 
+<<<<<<< HEAD
 > It's running an Apache webserver, lets check it out
 
 ![](images/nmap.png)
@@ -37,6 +38,43 @@
 ![](images/request.png)
 
 > rce using the php in the user agent
+=======
+![](images/nmap.png)
+
+## Website
+
+> Display dog or cat with button
+
+![](images/website.png)
+
+> Only allows cats or dogs
+
+![](images/site.png)
+
+> Use php filter bypasses such as b64 encoding to get around this
+
+![](images/access.png)
+
+> Get the raw index.php code by decoding the base64.
+
+![](images/decrypt.png)
+
+> The "**ext**" variable can be set, meaning file of any extension can be read. For example, /etc/passwd.
+
+![](images/ext.png)
+
+> Access the apache2 log files using the same method
+
+![](images/logs.png)
+
+## burpsuite
+
+> Capture and send the request in burpsuite
+
+![](images/request.png)
+
+> Exploit RCE using the php in the user agent
+>>>>>>> d42aefa (change tense)
 
 ![](images/useragent.png)
 
@@ -44,16 +82,27 @@
 
 ![](images/shell.png)
 
+<<<<<<< HEAD
 > Get shell!
 
 ![](images/shellsuccess.png)
 
 > Get Flag1
+=======
+## nc
+
+> Run a netcat listener and get a shell
+
+![](images/shellsuccess.png)
+
+## Flag 1
+>>>>>>> d42aefa (change tense)
 
 ![](images/flag1.png)
 
 ## Flag 2
 
+<<<<<<< HEAD
 > Get flag2
 
 ![](images/flag2.png)
@@ -83,6 +132,33 @@
 ![](images/backups.png)
 
 > we can overwrite backup.sh to get a reverse shell
+=======
+![](images/flag2.png)
+
+## PrivEsc
+
+> Use sudo -l to list all programs that can be run as root, and use env to get a bash shell
+
+![](images/sudol.png)
+
+![](images/root.png)
+
+## Flag 3
+
+![](images/flag3.png)
+
+## docker PrivEsc
+
+> Run ```cat/proc/1/cgroup```, the room is in a docker container
+
+![](images/cgroup.png)
+
+> In the /opt/backups folder, backup.sh is being backed up every minute
+
+![](images/backups.png)
+
+> Overwrite backup.sh to get a reverse shell
+>>>>>>> d42aefa (change tense)
 
 ![](images/overwrite.png)
 
@@ -90,6 +166,10 @@
 
 ![](images/reverse.png)
 
+<<<<<<< HEAD
 > get flag4!
+=======
+## Flag 4
+>>>>>>> d42aefa (change tense)
 
 ![](images/flag4.png)

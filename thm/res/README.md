@@ -10,13 +10,13 @@
 
 ## redis-cli
 
-> connect using redis-cli
+> Connect using redis-cli
 
 ![](images/rediscli.png)
 
-## rce
+## RCE
 
-> we have remote code execution
+> Make a new redis php db to perform RCE
 
 ![](images/rce.png)
 
@@ -24,29 +24,29 @@
 
 ## reverse shell
 
-> use netcat to get a reverse shell
+> Use netcat and the RCE to get a reverse shell
 
 ![](images/shell.png)
 
 ![](images/webshell.png)
 
-> upgrade shell
+> Upgrade the shell using python
 
 ![](images/upgrade.png)
 
 ## PrivEsc to Vianka
 
-> linenum suid binaries list xxd (https://gtfobins.github.io/gtfobins/xxd/)
+> Use linenum to find linux privilage escalation routes. On this machine, xxd is an SUID binary.
 
 ![](images/linenum.png)
 
-> exploit xxd to read /etc/shadow and /etc/passwd and save both to files on my machine
+> Exploit xxd to read /etc/shadow and /etc/passwd and save both to files
 
 ![](images/vianka.png)  
 
 ![](images/unshadow.png)
 
-> crack the unshadow file with john
+> Crack the unshadow.txt file
 
 ![](images/cracked.png)
 
@@ -56,11 +56,11 @@
 
 ## PrivEsc to Root
 
-> use the same exploit to read sudoers file and copy it to a new file
+> Use the same exploit to read sudoers file and copy it to a new file
 
 ![](images/sudoers.png)
 
-> add vianka to the new sudoers file and overwrite the original, then switch to root  
+> Add vianka to the new sudoers file and overwrite the original, then switch to root  
 
 ![](images/root.png)
 
