@@ -30,7 +30,7 @@
 
 ## password
 
-> using ```git log -p``` we can display the patch information, where at the bottom we can see the initial commit. In the html code, the username and password are hardcoded.
+> using ```git log -p``` we can display the patch information, where at the bottom we can see the initial commit. In the html code, the username and password are hardcoded in JavaScript.
 
 ![](images/userpass.png)  
 
