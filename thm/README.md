@@ -9,7 +9,7 @@ My collection of writeups for TryHackMe's rooms and walkthrooughs.
 
 |Name               |                                                                      |   |   |
 |-------------------|----------------------------------------------------------------------|---|---|
-|binex              |Link](https://github.com/wither/notes/tree/main/thm/binex)            |   |   |
+|binex              |[Link](https://github.com/wither/notes/tree/main/thm/binex)           |   |   |
 |dogcat             |[Link](https://github.com/wither/notes/tree/main/thm/dogcat)          |   |   |
 |git-happens        |[Link](https://github.com/wither/notes/tree/main/thm/git-happens)     |   |   |
 |kiba               |[Link](https://github.com/wither/notes/tree/main/thm/kiba)            |   |   |
