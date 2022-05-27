@@ -6,7 +6,6 @@
 
 ## nmap
 
-<<<<<<< HEAD
 > It's running an Apache webserver, lets check it out
 
 ![](images/nmap.png)
