@@ -8,26 +8,26 @@ My collection of writeups for TryHackMe's rooms and walkthrooughs.
 
 |Name               |Writeup                                                                    |Difficulty     |Tags                                                                                     |
 |-------------------|---------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------------|
-|anonymous          |[Link](https://github.com/wither/notes/tree/main/thm/anonymous)            | Easy          |**suid**                                                                                 |
-|bounty-hacker      |[Link](https://github.com/wither/notes/tree/main/thm/bounty-hacker)        | Easy          |**hydra**, **sudo**                                                                      |
-|cat-pictures       |[Link](https://github.com/wither/notes/tree/main/thm/cat-pictures)         | Easy          |**netcat**, **cron**                                                                     |
-|cyber-heroes       |[Link](https://github.com/wither/notes/tree/main/thm/cyber-heroes)         | Easy          |**source**                                                                               |
-|dig-dug            |[Link](https://github.com/wither/notes/tree/main/thm/dig-dug)              | Easy          |**dns**                                                                                  |
-|flatline           |[Link](https://github.com/wither/notes/tree/main/thm/flatline)             | Easy          |**rce**, **msfvenom**, **poweshell**                                                     |
-|gallery            |[Link](https://github.com/wither/notes/tree/main/thm/gallery)              | Easy          |**sql injection**, **rce**, **sudo**                                                     |
-|git-happens        |[Link](https://github.com/wither/notes/tree/main/thm/git-happens)          | Easy          |**git**                                                                                  |
-|ide                |[Link](https://github.com/wither/notes/tree/main/thm/ide)                  | Easy          |**rce**, **sudo**                                                                        |
-|ignite             |[Link](https://github.com/wither/notes/tree/main/thm/ignite)               | Easy          |**rce**,                                                                                 |
-|jason              |[Link](https://github.com/wither/notes/tree/main/thm/jason)                | Easy          |**deserialization**, **sudo**                                                            |
-|kiba               |[Link](https://github.com/wither/notes/tree/main/thm/kiba)                 | Easy          |**prototype pollution**, **capabilities**                                                |
-|lazyadmin          |[Link](https://github.com/wither/notes/tree/main/thm/lazyadmin)            | Easy          |**afu**, **sudo**                                                                        |
+|Anonymous          |[Link](https://github.com/wither/notes/tree/main/thm/anonymous)            | Easy          |**suid**                                                                                 |
+|Bounty Hacker      |[Link](https://github.com/wither/notes/tree/main/thm/bounty-hacker)        | Easy          |**hydra**, **sudo**                                                                      |
+|Cat Pictures       |[Link](https://github.com/wither/notes/tree/main/thm/cat-pictures)         | Easy          |**netcat**, **cron**                                                                     |
+|Cyber heroes       |[Link](https://github.com/wither/notes/tree/main/thm/cyber-heroes)         | Easy          |**source**                                                                               |
+|Dig dug            |[Link](https://github.com/wither/notes/tree/main/thm/dig-dug)              | Easy          |**dns**                                                                                  |
+|Flatline           |[Link](https://github.com/wither/notes/tree/main/thm/flatline)             | Easy          |**rce**, **msfvenom**, **poweshell**                                                     |
+|Gallery            |[Link](https://github.com/wither/notes/tree/main/thm/gallery)              | Easy          |**sql injection**, **rce**, **sudo**                                                     |
+|Git happens        |[Link](https://github.com/wither/notes/tree/main/thm/git-happens)          | Easy          |**git**                                                                                  |
+|IDE                |[Link](https://github.com/wither/notes/tree/main/thm/ide)                  | Easy          |**rce**, **sudo**                                                                        |
+|Ignite             |[Link](https://github.com/wither/notes/tree/main/thm/ignite)               | Easy          |**rce**,                                                                                 |
+|Jason              |[Link](https://github.com/wither/notes/tree/main/thm/jason)                | Easy          |**deserialization**, **sudo**                                                            |
+|Kiba               |[Link](https://github.com/wither/notes/tree/main/thm/kiba)                 | Easy          |**prototype pollution**, **capabilities**                                                |
+|Lazy Admin         |[Link](https://github.com/wither/notes/tree/main/thm/lazyadmin)            | Easy          |**afu**, **sudo**                                                                        |
 |MrRobot            |[Link](https://github.com/wither/notes/tree/main/thm/mrrobot)              | Easy          |**wordpress**, **suid**                                                                  |
-|mustacchio         |[Link](https://github.com/wither/notes/tree/main/thm/mustacchio)           | Easy          |**xxe**, **path**                                                                        |
-|overpass           |[Link](https://github.com/wither/notes/tree/main/thm/overpass)             | Easy          |**session hijacking**, **cron**                                                          |
-|plotted-tms        |[Link](https://github.com/wither/notes/tree/main/thm/plotted-tms)          | Easy          |**rce**, **cron**, **doas**                                                              |
-|rootme             |[Link](https://github.com/wither/notes/tree/main/thm/rootme)               | Easy          |**upload filter bypass**, **suid**                                                       |
-|res                |[Link](https://github.com/wither/notes/tree/main/thm/res)                  | Easy          |**redis**, **rce**, **suid**, **file read**, **file write**                              |
-|teh-supp0rt-1      |[Link](https://github.com/wither/notes/tree/main/thm/tech-supp0rt-1)       | Easy          |**smb**, **rce**, **wordpress**, **sudo**                                                |
+|Mustacchio         |[Link](https://github.com/wither/notes/tree/main/thm/mustacchio)           | Easy          |**xxe**, **path**                                                                        |
+|Overpass           |[Link](https://github.com/wither/notes/tree/main/thm/overpass)             | Easy          |**session hijacking**, **cron**                                                          |
+|Plotted TMS        |[Link](https://github.com/wither/notes/tree/main/thm/plotted-tms)          | Easy          |**rce**, **cron**, **doas**                                                              |
+|Rootme             |[Link](https://github.com/wither/notes/tree/main/thm/rootme)               | Easy          |**upload filter bypass**, **suid**                                                       |
+|Res                |[Link](https://github.com/wither/notes/tree/main/thm/res)                  | Easy          |**redis**, **rce**, **suid**, **file read**, **file write**                              |
+|Tech supp0rt 1     |[Link](https://github.com/wither/notes/tree/main/thm/tech-supp0rt-1)       | Easy          |**smb**, **rce**, **wordpress**, **sudo**                                                |
 |tomghost           |[Link](https://github.com/wither/notes/tree/main/thm/tomghost)             | Easy          |**gpg**, **sudo**                                                                        |
 
 ## Medium
