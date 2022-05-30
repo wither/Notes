@@ -1,6 +1,6 @@
 # Bounty Hacker
 
-![](https://i.imgur.com/rCDF5u6.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/9ad38a2cc31d6ae0030c888aca7fe646.jpeg)
 
 ---
 

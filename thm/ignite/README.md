@@ -1,6 +1,6 @@
 # ignite
 
-![](https://tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/676cb3273c613c9ba00688162efc0979.png)
 
 ---
 

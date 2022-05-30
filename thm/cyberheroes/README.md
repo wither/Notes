@@ -1,5 +1,5 @@
 # cyberheroes
-![](https://assets.tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/e8874c2d58c8ff0df78b5183fb828c81.png)
 
 ---
 

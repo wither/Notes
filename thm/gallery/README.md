@@ -1,6 +1,6 @@
 # gallery
 
-![](https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/c53a8eb73f24535345477fdf603fe1de.png)
 
 ---
 

@@ -1,6 +1,6 @@
 # dogcat
 
-![](https://i.imgur.com/nSkIlFr.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/ce2fe16cfcdac475834f262306243b0a.png)
 
 ---
 

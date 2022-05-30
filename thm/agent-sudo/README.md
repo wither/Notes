@@ -1,6 +1,8 @@
 # agent-sudo
 
-![](https://tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/aedc6b66c222e15ff740c282a0c3f44e.png)
+
+---
 
 ## nmap
 

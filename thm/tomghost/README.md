@@ -1,6 +1,6 @@
 # tomghost
 
-![](https://i.imgur.com/j83SrGu.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/016dea7c96e8b422241016405b571c8b.jpeg)
 
 ---
 

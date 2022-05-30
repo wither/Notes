@@ -1,6 +1,6 @@
 # Git Happens
 
-![](https://assets.tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/3bbde0f7b1df2e2ee61206ae6b3cd9b2.png)
 
 ---
 

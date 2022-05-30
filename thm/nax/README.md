@@ -1,6 +1,6 @@
 # nax
 
-![](https://i.imgur.com/GF8Xhq5.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/3c441ea82219c5e77dfb184e83bf7bf2.png)
 
 ---
 

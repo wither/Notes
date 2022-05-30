@@ -1,6 +1,6 @@
 # The Marketplace
 
-![](https://assets.tryhackme.com/room-banners/marketplace.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/7c385ae7e0ef53362b807fffe8b69a47.png)
 
 ---
 

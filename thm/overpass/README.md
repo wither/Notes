@@ -1,6 +1,6 @@
 # overpass
 
-![](https://i.imgur.com/LPggi78.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/2048656e072dd7caffe455ae2d44b65f.png)
 
 ---
 
@@ -56,4 +56,4 @@
 
 ## Root flag
 
-![](rootflag.png)  
+![](images/rootflag.png)  

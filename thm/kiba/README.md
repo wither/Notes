@@ -1,6 +1,6 @@
 # Kiba
 
-![](https://assets.tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/ea4429193c0250f0949cec4234d8037b.png)
 
 ---
 

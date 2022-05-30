@@ -1,6 +1,6 @@
 # LazyAdmin
 
-![](https://tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/efbb70493ba66dfbac4302c02ad8facf.jpeg)
 
 ---
 

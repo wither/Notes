@@ -1,6 +1,6 @@
 # RootMe
 
-![](https://assets.tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/11d59cb34397e986062eb515f4d32421.png)
 
 ---
 

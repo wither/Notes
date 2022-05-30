@@ -1,6 +1,6 @@
 # ide
 
-![](https://assets.tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/3ce8e9c4d1da5eefef690e11f75798c7.png)
 
 ---
 

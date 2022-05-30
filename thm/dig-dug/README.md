@@ -1,6 +1,9 @@
 # dig-dug
 
-![](https://assets.tryhackme.com/img/banners/default_tryhackme.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/c583f9d6cc8a7f2a749fad911eb81eb3.png)
+
+---
+
 
 ## Flag
 

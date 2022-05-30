@@ -1,5 +1,5 @@
 # Mr Robot CTF
-![](https://i.imgur.com/Bo6jUIK.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/7a8797ae59733f2a72f0e8a8748be128.jpeg)
 
 ---
 

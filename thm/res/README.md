@@ -1,6 +1,6 @@
 # res
 
-![](https://assets.tryhackme.com/room-banners/redis.png)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/828d4be9917a0dc62fa09ac05265cd7b.png)
 
 ---
 

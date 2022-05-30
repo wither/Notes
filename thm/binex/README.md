@@ -1,6 +1,6 @@
 # binex
 
-![](https://i.imgur.com/aohxmGa.jpeg)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/2e7fc08002cc56de2f61e8e46365ae8f.png)
 
 ---
 
