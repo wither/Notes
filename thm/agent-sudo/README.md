@@ -34,7 +34,7 @@
 
 > that file reads this, chris agent C's username
 
-![](chris.png)  
+![](images/chris.png)  
 
 ## hydra
 
