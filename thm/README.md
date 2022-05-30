@@ -45,11 +45,12 @@ My collection of writeups for TryHackMe's rooms and walkthroughs.
 |Name               |Writeup                                                                    |Difficulty     
 |-------------------|---------------------------------------------------------------------------|----------|
 
-## To Add
+## To Do
 
 * [X] Recover, reformat and integrate old notes.
 * [X] Decide universal tense/style
 * [X] Create index
+* [X] Remove passowrds from images
 * [ ] Hack more
 
 
