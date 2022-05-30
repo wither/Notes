@@ -1,7 +1,7 @@
 
 # TryHackMe Notes
 
-My collection of writeups for TryHackMe's rooms and walkthrooughs.
+My collection of writeups for TryHackMe's rooms and walkthroughs.
 
 
 ## Easy
