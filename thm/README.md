@@ -11,11 +11,11 @@ My collection of writeups for TryHackMe's rooms and walkthrooughs.
 |Anonymous          |[Link](https://github.com/wither/notes/tree/main/thm/anonymous)            | Easy     |    
 |Bounty Hacker      |[Link](https://github.com/wither/notes/tree/main/thm/bounty-hacker)        | Easy     |     
 |Cat Pictures       |[Link](https://github.com/wither/notes/tree/main/thm/cat-pictures)         | Easy     |     
-|Cyber heroes       |[Link](https://github.com/wither/notes/tree/main/thm/cyber-heroes)         | Easy     |     
-|Dig dug            |[Link](https://github.com/wither/notes/tree/main/thm/dig-dug)              | Easy     |     
+|Cyber Heroes       |[Link](https://github.com/wither/notes/tree/main/thm/cyber-heroes)         | Easy     |     
+|Dig Dug            |[Link](https://github.com/wither/notes/tree/main/thm/dig-dug)              | Easy     |     
 |Flatline           |[Link](https://github.com/wither/notes/tree/main/thm/flatline)              | Easy     |     
 |Gallery            |[Link](https://github.com/wither/notes/tree/main/thm/gallery)              | Easy     |     
-|Git happens        |[Link](https://github.com/wither/notes/tree/main/thm/git-happens)          | Easy     |     
+|Git Happens        |[Link](https://github.com/wither/notes/tree/main/thm/git-happens)          | Easy     |     
 |IDE                |[Link](https://github.com/wither/notes/tree/main/thm/ide)                  | Easy     |     
 |Ignite             |[Link](https://github.com/wither/notes/tree/main/thm/ignite)               | Easy     |     
 |Jason              |[Link](https://github.com/wither/notes/tree/main/thm/jason)                | Easy     |     
@@ -27,17 +27,17 @@ My collection of writeups for TryHackMe's rooms and walkthrooughs.
 |Plotted TMS        |[Link](https://github.com/wither/notes/tree/main/thm/plotted-tms)          | Easy     |     
 |Rootme             |[Link](https://github.com/wither/notes/tree/main/thm/rootme)               | Easy     |     
 |Res                |[Link](https://github.com/wither/notes/tree/main/thm/res)                  | Easy     |     
-|Tech supp0rt 1     |[Link](https://github.com/wither/notes/tree/main/thm/tech-supp0rt-1)       | Easy     |     
-|tomghost           |[Link](https://github.com/wither/notes/tree/main/thm/tomghost)             | Easy     |     
+|Tech Supp0rt 1     |[Link](https://github.com/wither/notes/tree/main/thm/tech-supp0rt-1)       | Easy     |     
+|Tomghost           |[Link](https://github.com/wither/notes/tree/main/thm/tomghost)             | Easy     |     
 
 ## Medium
 
 |Name               |Writeup                                                                    |Difficulty     
 |-------------------|---------------------------------------------------------------------------|----------|
-|binex              |[Link](https://github.com/wither/notes/tree/main/thm/binex)                | Medium   |                                                             |
-|dogcat             |[Link](https://github.com/wither/notes/tree/main/thm/dogcat)               | Medium   |                                                      |
-|nax                |[Link](https://github.com/wither/notes/tree/main/thm/nax)                  | Medium   |                                                              |
-|the-marketplace    |[Link](https://github.com/wither/notes/tree/main/thm/the-marketplace )     | Medium   |                                                        |
+|Hinex              |[Link](https://github.com/wither/notes/tree/main/thm/binex)                | Medium   |                                                             |
+|Dogcat             |[Link](https://github.com/wither/notes/tree/main/thm/dogcat)               | Medium   |                                                      |
+|Nax                |[Link](https://github.com/wither/notes/tree/main/thm/nax)                  | Medium   |                                                              |
+|The Marketplace    |[Link](https://github.com/wither/notes/tree/main/thm/the-marketplace )     | Medium   |                                                        |
 
 
 ## Hard
