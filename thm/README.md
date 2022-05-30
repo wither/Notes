@@ -34,7 +34,7 @@ My collection of writeups for TryHackMe's rooms and walkthroughs.
 
 |Name               |Writeup                                                                    |Difficulty     
 |-------------------|---------------------------------------------------------------------------|----------|
-|Hinex              |[Link](https://github.com/wither/notes/tree/main/thm/binex)                | Medium   |                                                             |
+|Binex              |[Link](https://github.com/wither/notes/tree/main/thm/binex)                | Medium   |                                                             |
 |Dogcat             |[Link](https://github.com/wither/notes/tree/main/thm/dogcat)               | Medium   |                                                      |
 |Nax                |[Link](https://github.com/wither/notes/tree/main/thm/nax)                  | Medium   |                                                              |
 |The Marketplace    |[Link](https://github.com/wither/notes/tree/main/thm/the-marketplace )     | Medium   |                                                        |
