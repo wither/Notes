@@ -40,7 +40,7 @@
 
 ## PrivEsc
 
-> List programs with capabilities set, take not of python3
+> List programs with capabilities set
 
 ![](images/caps.png)
 

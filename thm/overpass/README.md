@@ -50,7 +50,7 @@
 
 ## Root
 
-> write a revere shell script called buildscript in /downloads/src and start a http server there, the cronjob will wget and run it to give a root shell
+> write a reverse shell script called buildscript in /downloads/src and start a http server there, the cronjob will wget and run it to give a root shell
  
 ![](images/root.png)  
 

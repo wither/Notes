@@ -38,7 +38,7 @@
 
 ## PrivEsc
 
-> after some digging, database.php in the /fuel/ directory contains admin credentials
+> database.php in the /fuel/ directory contains admin credentials
 
 ## Root
 

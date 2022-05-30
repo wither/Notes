@@ -18,9 +18,7 @@
 
 ![](images/creds.png)  
 
-> crack the password
-
-![](images/cracked.png)  
+> crack the password 
 
 ## admin panel
 

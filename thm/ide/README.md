@@ -22,7 +22,7 @@
 
 ## login
 
-> johns credentials are john : password
+> login with johns credentials
 
 ![](images/passreset.png)  
 
@@ -41,7 +41,7 @@
 
 > drac's password is in their bash history
 
-![](images/history.png)  
+![](images/#.png)  
 
 ## User flag
 
