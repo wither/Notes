@@ -6,11 +6,9 @@
 
 ## nmap
 
-> It's running an Apache webserver, lets check it out
-
 ![](images/nmap.png)
 
-> You press a button and either a dog or cat is displayed with the parameter in the URL.
+> When the button is pressed either a dog or cat is displayed with the parameter in the URL.
 
 ![](images/website.png)
 
@@ -18,61 +16,26 @@
 
 ![](images/site.png)
 
-> However, we can use php filter bypasses such as b64 encoding to get around this:
+> However, we can use `php filter bypasses` such as `b64 encoding` to get around this:
 
 ![](images/access.png)
 
-> As you can see, by decoding the base64 we get the raw index.php code. As you can see in the code, the "**ext**" variable can be set, meaning we could in theory read any file of any extension. Lets try read /etc/passwd
+> By decoding the base64 the raw `index.php` code is revealed. Data can be passed to the `ext` variable to read any file of any extension.
 
 ![](images/decrypt.png)
 
 ![](images/ext.png)
 
-> Using the same method, we can access the apache2 log files
+> Using the same method, the Apache2 log file `access.log` can be accessed.
 
 ![](images/logs.png)
 
-> capture and send the request in burpsuite
+> Capture and send the request to BurpSuite
 
 ![](images/request.png)
 
-> rce using the php in the user agent
 
-![](images/nmap.png)
-
-## Website
-
-> Display dog or cat with button
-
-![](images/website.png)
-
-> Only allows cats or dogs
-
-![](images/site.png)
-
-> Use php filter bypasses such as b64 encoding to get around this
-
-![](images/access.png)
-
-> Get the raw index.php code by decoding the base64.
-
-![](images/decrypt.png)
-
-> The "**ext**" variable can be set, meaning file of any extension can be read. For example, /etc/passwd.
-
-![](images/ext.png)
-
-> Access the apache2 log files using the same method
-
-![](images/logs.png)
-
-## burpsuite
-
-> Capture and send the request in burpsuite
-
-![](images/request.png)
-
-> Exploit RCE using the php in the user agent
+> Exploit `RCE` using the php in the `user-agent`
 
 ![](images/useragent.png)
 
@@ -96,7 +59,7 @@
 
 ## PrivEsc
 
-> Use sudo -l to list all programs that can be run as root, and use env to get a bash shell
+> Use `sudo -l` to list all programs that can be run as root, and exploit `env` to get a bash shell
 
 ![](images/sudol.png)
 
@@ -112,15 +75,15 @@
 
 ![](images/cgroup.png)
 
-> In the /opt/backups folder, backup.sh is being backed up every minute
+> In the `/opt/backups` folder, `backup.sh` is being backed up every minute.
 
 ![](images/backups.png)
 
-> Overwrite backup.sh to get a reverse shell
+> Overwrite `backup.sh` to get a reverse shell
 
 ![](images/overwrite.png)
 
-> Append the reverse shell onto the file and wait for it to execute to get a shell
+> Append the reverse shell onto `backup.sh` and wait for the cronjob to execute it to get a shell.
 
 ![](images/reverse.png)
 

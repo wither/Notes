@@ -10,47 +10,47 @@
 
 ## users
 
-> the webserver has a file called 'users.bak' in a custom js folder.
+> The webserver has a file called `users.bak` in a `/custom/js/` folder.
 
 ![](images/users.png)  
 
-> it contains some SQL admin credentials
+> It contains some SQL admin credentials
 
 ![](images/creds.png)  
 
-> crack the password 
+> Crack the password 
 
 ## admin panel
 
-> theres an admin panel on :8765 login with the admin credentials
+> Theres an admin panel on `:8765`, login with the admin credentials.
 
 ![](images/login.png)  
 
-> after logging in theres a comment box
+> After logging in theres a comment box
 
 ![](images/comment.png)  
 
 ## xxe
 
-> which sends the comment as xml
+> Which sends the comment as `xml`
 
 ![](images/xml.png)  
 
-> theres a comment in the source about a /auth/dontforget.bak, which contains a comment example in the form of xml
+> Theres a comment in the source about a `/auth/` dont `forget.bak`, which contains a comment example in the form of `xml`.
 
 ![](images/dontforget.png)  
 
-> sending the xml comment displays it in the response
+> Sending the `xml` comment displays it in the response
 
 ![](images/xmlformat.png)  
 
-> use xxe lfi to get barry's ssh key
+> Use `XXE` `LFI` to get `barry`'s SSH key
 
 ![](images/xxelfi.png)  
 
 ## User
 
-> pass the id_rsa to ssh2john, crack it to get the passphrase and ssh into the machine as barry
+> Pass the `id_rsa` to `ssh2john`, crack it to get the passphrase and ssh into the machine as `barry`.
 
 ![](images/shs.png)  
 
@@ -60,19 +60,19 @@
 
 ## PrivEsc
 
-> binary in joes home folder has suid perms
+> There's a binary in the `joes/home/` folder has `suid` permissions
 
 ![](images/livelog.png)  
 
-> download it
+> Download it using `scp`
 
 ![](images/scp.png)  
 
-> it tails the access log
+> it `tail`s the access log
 
 ## Root flag
 
-> add barrys home to PATH and write a command to a tails file, so that when live_log is ran, tails is ran as root
+> Add `barry`'s home to `$PATH `and write a command to a `tail` file, so that when `live_log` is ran, `tail` is also ran as root.
 
 ![](images/rootflag.png)  
 

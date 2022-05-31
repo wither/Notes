@@ -10,66 +10,66 @@
 
 ## ffuf
 
-> directory called test
+> There is a directory `/test/`
 
 ![](images/test.png)  
 
 ## smb
 
-> enumerate shares
+> Enumerate `SMB` shares using `nmap`'s `smb-enum-shares` script.
 
 ![](images/shares.png)  
 
-> login and download the .txt file
+> Login to the `/websvr` share and download the `enter.txt` file
 
 ![](images/txt.png)  
 
-> file has admin credentials 
+> `enter.txt` has admin credentials 
 
 ![](images/creds.png)  
 
 ## cracking
 
-> use cyberchef magic recipe to crack the password
+> Use `cyberchef magic recipe` to crack the password
 
 ![](images/crack.png)  
 
 ## exploit
 
-> use this exploit to get rce
+> Use this exploit to get `RCE`
 
 ![](images/exploit.png)  
 
 ## shell
 
-> use the rce to download and run a reverse shell
+> Use the `RCE` to download and run a reverse shell
 
 ![](images/shell.png)    
 
 ## PrivEsc
 
-> wp-config file in /wordpress/ contains credentials
+> `wp-config` file in `/wordpress/` contains credentials
 
 ![](images/wpcreds.png)  
 
-> /etc/passwd shows that scamsite is the other user
+> `/etc/passwd` shows that `scamsite` is the other user
 
 ![](images/scamsite.png)  
 
 ## User
 
-> use the wp password to ssh into the machine as scamsite
+> Use the `wordpress` password to `SSH` into the machine as `scamsite`
 
 ![](images/userssh.png)  
 
 ## PrivEsc to root
 
-> iconv can be ran as sudo without password
+> `iconv` can be ran as sudo without password
 
 ![](images/sudo.png)  
 
 ## Root flag
 
-> exploit iconv to read the root flag
+> exploit `iconv` to read the root flag
  
 ![](images/rootflag.png)  

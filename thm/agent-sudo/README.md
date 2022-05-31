@@ -10,17 +10,17 @@
 
 ## codename
 
-> Website says to use codename as the user-agent to access more
+> The website says to use a codename as the user-agent to access more.
 
 ![](images/codename.png)  
 
 ## burpsuite
 
-> R as the user-agent discloses there are 25 other employees, 1 for each letter of the alphabet.
+> `R` as the user-agent discloses there are 25 other employees (1 for each letter of the alphabet)
 
  ![](images/R.png)  
 
-> use intruder to bruteforce the codename
+> Use BurpSuite's `intruder` tool to bruteforce the codename.
 
 ![](images/setting.png)   
 
@@ -28,23 +28,23 @@
 
 ## agent C
 
-> user-agent:C redirects to agent_C_attention.php
+> `user-agent:C` redirects to `agent_C_attention.php`
 
 ![](images/agentC.png)  
 
-> that file reads this, chris agent C's username
+> `agent_C_attention.php` reads this:
 
 ![](images/chris.png)  
 
 ## hydra
 
-> bruteforce chris's ftp password
+> Use hydra to bruteforce chris's FTP password
 
 ![](images/ftppass.png)  
 
 ## ftp
 
-> login and download the .txt file
+> Login and download the `To_agentJ.txt` file
 
 ![](images/toagentj.png)  
 
@@ -52,13 +52,13 @@
 
 ![](images/image.png)  
 
-> Download the images
+> Download the images.
 
 ![](images/downloadaliens.png) 
 
 ## Steganography
 
->  use stegseek to view the steganographic within one of the files, it gives us a name and password that we can login to via ssh
+>  Use `stegseek` to view the steganographic data within `cute-alien.jpg`, ireavealing a name and password that we can login to via SSH.
 
 ![](images/stegseek.png)  
 
@@ -68,7 +68,7 @@
 
 ## PrivEsc
 
-> Use CVE-2019-14287 to escalate privilages
+> Use `CVE-2019-14287` to escalate privilages to root.
 
 ![](images/root.png)  
 

@@ -13,7 +13,7 @@
 
 ![](images/ffuf.png)
 
-> Notably, ffuf will discover **robots.txt**
+> Notably, ffuf will discover `robots.txt`
 
 ## Key 1
 
@@ -21,11 +21,11 @@
 
 ## WPScan
 
-> ffuf will also find a wordpres login form. Use the dictionary file referred to in the robots.txt file ('**fsocity.dic**') to find the username. Remove those.
+> ffuf will also find a `wordpres` login form. Use the dictionary file `fsociety.dic `(remove duplicates using `uniq` and `sort`) referred to in the `robots.txt` file to find the username.
 
 ![](images/wpscan.png)
 
-> Get the user "**Elliott**"
+> Get the user `Elliott`
 
 ![](images/elliott.png)
 
@@ -43,21 +43,21 @@
 
 ![](images/netcat.png)
 
-> Run the compromised file
+> Run the compromised file by accessing it in the URL.
 
 ![](images/compromised.png)
 
-> Get and upgrade shell
+> Get a reverse shell and upgrade the tty using `python`.
 
 ![](images/upgrade.png)
 
 # PrivEsc
 
-> Search for setuid binaries
+> Search for `setuid` binaries
 
 ![](images/setuid.png)
 
-> Abuse the nmap binary to get root
+> Abuse the `nmap` binary to get root
 
 ![](images/root.png)
 

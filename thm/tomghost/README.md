@@ -10,31 +10,31 @@
 
 ## ssh
 
-> Exploit tomcat using the ghostcat vulnerability (metasploit) and get the user 'skyfuck' ssh login
+> Exploit `tomcat` using the `ghostcat` vulnerability in `metasploit` and get the user `skyfuck`'s SSH login.
 
 ![](images/exploitandssh.png)
 
 ## scp
 
-> scp the files from /home/skyfuck
+> `scp` the files from `/home/skyfuck`
 
 ![](images/scp.png)
 
 ## gpgjohn
 
-> Crack the asc file to get hashes
+> Use `gpg2john` to crack the `.asc` file and get the hash
 
 ![](images/gpgjohn.png)
 
 ## john
 
-> Crack the hashes to get the passphrase
+> Use `john` to crack the hashes and get the passphrase
 
 ![](images/john.png)
 
 ## gpg
 
-> Import the .asc file to decrypt the credentials to get a new user
+> `gpg --import` the `.asc` file to decrypt the credentials to get a new user.
 
 ![](images/merlin.png)
 
@@ -44,8 +44,7 @@
 
 ## PrivEsc
 
-> Sudo -l to show sudo binaries,
-exploit zip to escalate privelages
+> `sudo -l` to show binaries that can be ran as root, exploit `zip` to escalate privelages
 
 ![](images/privesc.png)
 

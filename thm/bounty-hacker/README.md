@@ -10,15 +10,15 @@
 
 ## ftp
 
-> Login to ftp using anonymous credentials
+> Login to FTP using `anonymous:anonymous`
 
 ![](images/ftpanon.png)  
 
-> Download the files
+> Download the files `locks.txt` and `task.txt`
 
 ![](images/download.png)  
 
-> Bruteforce lin's ssh password using locks.txt
+> Use `hydra` and `locks.txt` as a wordlist to bruteforce `lin`'s SSH password.
 
 ![](images/ssh.png)  
 
@@ -28,11 +28,13 @@
 
 ## PrivEsc
 
-> `sudo -l` shows that tar can be run as root
+> `tar` can be run as root.
 
 ![](images/sudo.png)  
 
 ## Root
+
+> Exploit `tar` to gain root access.
 
 ![](images/root.png)  
 

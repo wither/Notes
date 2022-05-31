@@ -10,13 +10,13 @@
 
 ## redis-cli
 
-> Connect using redis-cli
+> Connect using `redis-cli`
 
 ![](images/rediscli.png)
 
 ## RCE
 
-> Make a new redis php db to perform RCE
+> Make a new redis php db to perform `RCE`
 
 ![](images/rce.png)
 
@@ -24,7 +24,7 @@
 
 ## reverse shell
 
-> Use netcat and the RCE to get a reverse shell
+> Use netcat and the `RCE` to get a reverse shell
 
 ![](images/shell.png)
 
@@ -36,17 +36,17 @@
 
 ## PrivEsc to Vianka
 
-> Use linenum to find linux privilage escalation routes. On this machine, xxd is an SUID binary.
+> Use `linenum` to find linux privilage escalation routes. On this machine, `xxd` is an `SUID binary`.
 
 ![](images/linenum.png)
 
-> Exploit xxd to read /etc/shadow and /etc/passwd and save both to files
+> Exploit `xxd` to `read /etc/shadow` and `/etc/passwd` and `save` both to files
 
 ![](images/vianka.png)  
 
 ![](images/unshadow.png)
 
-> Crack the unshadow.txt file
+> Crack the `unshadow.txt` file
 
 ![](images/cracked.png)
 
@@ -56,11 +56,11 @@
 
 ## PrivEsc to Root
 
-> Use the same exploit to read sudoers file and copy it to a new file
+> Use the same exploit to read the `/etc/sudoers` file and `copy` it to a new file
 
 ![](images/sudoers.png)
 
-> Add vianka to the new sudoers file and overwrite the original, then switch to root  
+> `Add vianka` to the `new sudoers file` and `overwrite` the original, then switch to root. 
 
 ![](images/root.png)
 

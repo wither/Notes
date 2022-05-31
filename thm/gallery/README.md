@@ -10,27 +10,27 @@
 
 ## ffuf
 
-> /gallery/ directory
+> `/gallery/` directory
 
 ![](images/gallery.png)  
 
-> requires login
+> It requires a login
 
 ![](images/login.png)  
 
 ## sql injection
 
-> sending a login request in burp shows the sql query
+> Sending a login request in `BurpSuite` shows the SQL query
 
 ![](images/sqli.png)  
 
-> `') or 1=1#` allows for successful login
+> `') or 1=1#` allows for successful login.
 
 ![](images/success.png)  
 
 ## exploit
 
-> use this exploit to generate a rce payload
+> Use this exploit to generate a RCE payload
 
 ![](images/exploit.png)
 
@@ -38,29 +38,29 @@
 
 ## reverse shell
 
-> capture the request and pass it into burp, the machine doesnt have python to upgrade the tty, so encode a socat reverse shell and send it
+> Capture the request and pass it into `BurpSuite`, encode reverse shell and send the request.
 
 ![](images/burpsocat.png)  
 
-> with a socat listener open to get an interactive shell
+> Have a istener open to get an interactive shell
 
 ![](images/socat.png)  
 
 ## database
 
-> the database initialize.php file contains the mysql login credentials
+> The database `initialize.php` file contains the MySQL login credentials.
 
 ![](images/dblogin.png)  
 
-> use mysql to get the admin's password hash
+> Use `mysql` to get the admin's password hash
 
 ## PrivEsc
 
-> linpeas found a mike user with the user flag
+> `linpeas` found a `mike` user with the user flag
 
 ![](images/mike.png)  
 
-> linpeas found mikes password in his history
+> `linpeas` found `mikes` password in his .`bash_history`
 
 ![](images/password.png)  
 
@@ -74,14 +74,14 @@
 
 ## PrivEsc to root
 
-> mike can run the following script as sudo
+> `mike` can run the following script as sudo:
 
 ![](images/sudo.png)  
 
 
 ## Root
 
-> run the script, select to read it, then exploit nano to get root
+> Run the script, select to `read` it, then exploit `nano` to get root.
 
 
 ## Root flag

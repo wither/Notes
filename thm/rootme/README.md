@@ -10,25 +10,25 @@
 
 ## ffuf
 
-> found two hidden directories
+> Found two hidden directories, `/panel/` and `/uploads/`
 
 ![](images/ffuf.png)  
 
 ## upload
 
-> /panel/ is a file upload interface
+> `/panel/` is a file upload interface
 
 ![](images/upload.png)  
 
-> php uploads arent allowed
+> PHP uploads `arent` allowed
 
 ![](images/nophp.png)  
 
-> rename shell to .php5 to bypass the filter
+> Rename the reverse shell file to `.php5` to bypass the filter
 
 ![](images/bypass.png)  
 
-> open a netcat listener and go to /uploads/shell.php5 to get a reverse shell
+> Open a netcat listener and go to `/uploads/shell.php`5 to get a reverse shell
 
 ![](images/shell.png)  
 
@@ -38,11 +38,13 @@
 
 ## PrivEsc
 
-> find suid binaries, python is exploitable
+> Find `suid` binaries, `python` is exploitable
 
 ![](images/suid.png)  
 
 ## Root
+
+> Exploit the fact that `python` has `SUID` permissions set to get root.
 
 ![](images/root.png)  
 

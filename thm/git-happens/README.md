@@ -16,7 +16,7 @@
 
 ## gitdumper
 
-> Use gitdumper to download all of the files in the .git directory
+> Use `gitdumper` to download all of the files in the `.git` directory.
 
 ![](images/gitdumper.png)  
 

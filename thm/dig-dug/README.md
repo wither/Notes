@@ -7,4 +7,6 @@
 
 ## Flag
 
+> Use `dig` to view the DNS records of the `givemetheflag.com` domain and reveal the flag
+
 ![](images/flg.png)  

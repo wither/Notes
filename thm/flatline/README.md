@@ -10,31 +10,31 @@
 
 ## rce
 
-> using this exploit commands can be executed remotely
+> Using this exploit commands can be executed remotely
 
 ![](images/rce.png)  
 
 ## User flag
 
-> Navigate through the filesystem to find the flags on Nekrotics desktop
+> Navigate through the filesystem to find the flags on `Nekrotics` `Desktop`
 
 ![](images/userflag.png)  
 
 ## reverse shell
 
-> create a reverse shell exe in msfvenom and download it using powersell and the rce
+> Create a reverse shell `exe` in `msfvenom` and download it using `powersell` and the RCE.
 
 ![](images/msf.png)  
 
 ![](images/download.png)  
 
-> run the msf handler and the exe to get a meterpreter shell
+> use the `metasploit TCP handler` module as a listender and run the exe to get a `meterpreter` shell
 
 ![](images/meterpreter.png)  
 
 ## System
 
-> getsystem
+> `getsystem`
 
 ![](images/getsystem.png)  
 

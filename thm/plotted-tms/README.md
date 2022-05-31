@@ -10,19 +10,19 @@
 
 ## ffuf
 
-> nothing on :80, found :445/management/
+> Nothing found on `:80`, but found `/management/ `on `:445`
 
 ![](images/443.png)  
 
 ## website
 
-> has a login page
+> It's a login page
 
 ![](images/website.png)   
 
 ## exploit
 
-> use this exploit to upload an rce payload
+> Use this exploit to upload an `RCE` payload
 
 ![](images/exploit.png)  
 
@@ -30,7 +30,7 @@
 
 ## reverse shell
 
-> send a url encoded netcat reverse shell with a listener open to get a reverse shell
+> Send a `URL encoded` netcat reverse shell with a listener open to get a reverse shell
 
 ![](images/rs.png)  
 
@@ -38,21 +38,21 @@
 
 ## PrivEsc
 
-> plot_admin is the other user
+> `plot_admin` is the other user
 
 ![](images/plot_admin.png)  
 
-> backup.sh is being run as plot_admin in cronjobs
+> `backup.sh` is being run as `plot_admin` in `/etc/crontab`
 
 ![](images/crontab.png)  
 
-> backup.sh
+> `backup.sh`
 
 ![](images/backup.png)  
 
 ## User
 
-> delete backup.sh, and make a new one that spawns a reverse shell, wait for it to be ran as plot_admin
+> Delete `backup.sh`, and make a new one that spawns a reverse shell, wait for it to be ran as `plot_admin` by the cronjob
 
 ![](images/user.png)  
 
@@ -62,7 +62,7 @@
 
 ## PrivEsc
 
-> openssl can be ran as root using doas, exploit that to add another root user to /etc/passwd
+> `openssl` can be ran as root using `doas`, exploit that to add another root user to `/etc/passwd`
 
 `LFILE=/etc/passwd`
 `echo "wither:$1$wither$HlLgmlz4PVTP7kcFAbgRt0/:0:0:/root/root:/bin/bash" | doas -u root openssl enc -out "$LFILE"`

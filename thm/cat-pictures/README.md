@@ -10,39 +10,39 @@
 
 ## ftp
 
-> ftp is filtered, knocking these ports found on the forums only post opens it up and anonymous login is enabled. get note.txt
+> FTP is `filtered`, `knocking` the ports found on the forum opens it up. Login using `anonymous:anonymous` and download `note.txt`
 
 ![](images/magicnumbers.png)  
 
 ![](images/ftpopen.png)  
 
-> says to connect on port 4420 with a password
+> `note.txt` says to connect on port 4420 with a password.
 
 ![](images/4420.png)  
 
 ## netcat
 
-> using the password login using netcat and spawn a reverse shell
+> Using the password, login using `netcat` and spawn a reverse shell.
 
 ![](images/rs.png)  
 
 ## runme
 
-> theres a file in catlover's home called runme that asks for a password
+> There's a file in `catlover`'s home called `runme` that asks for a password.
 
 ![](images/runme.png)  
 
-> suspected password in the source
+> The password is hard-coded into the source.
 
 ![](images/rebecca.png)  
 
-> rebecca as a password generates an id_rsa
+> The password generates an rsa SSH key `id_rsa`
 
 ![](images/idrsa.png)  
 
 ## Fake root
 
-> use the key to ssh as fake root
+> Use the key to SSH as fake root.
 
 ![](images/root.png) 
 
@@ -52,13 +52,13 @@
 
 ## PrivEsc
 
-> cat /etc/crontab wont work, .bash_history shows repetitive access to /opt/clean.sh and crontab
+> `cat /etc/crontab` wont work, `.bash_history` shows repetitive access to `/opt/clean.sh` and `/etc/crontab`
 
 ![](images/cron.png)  
 
 ## Root
 
-> add a reverse shell onto clean.sh and wait for the cronjob to get a shell
+> Append a reverse shell onto `clean.sh` and wait for the cronjob to get a shell.
 
 ![](images/rootrs.png)  
 

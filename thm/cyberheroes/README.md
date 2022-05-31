@@ -9,10 +9,12 @@
 
 ## credentials
 
-> login credentials are in the login.html source
+> The login credentials are in the `login.html` source
 
 ![](images/creds.png)  
 
 ## Flag
+
+> Login using the credentials to get the flag.
 
 ![](images/flag.png)  

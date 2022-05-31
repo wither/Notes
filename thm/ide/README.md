@@ -10,26 +10,26 @@
 
 ## website
 
-> codiad login portal on port 62337
+> There is a `codiad` login portal on port `62337`
 
 ![](images/login.png)  
 
 ## ftp
 
-> login to ftp as anonymous and get .../- drac reset the pasword for john
+> Login to FTP with `anonymous:anonymous` and `get .../-`. `drac` reset the pasword for `john`.
 
 ![](images/-.png)  
 
 ## login
 
-> login with johns credentials
+> Login with johns credentials
 
 ![](images/passreset.png)  
 
 
 ## exploit
 
-> use this rce exploit in codiad to get a reverse shell
+> Use this RCE exploit in codiad to get a reverse shell
 
 ![](images/shell.png)  
 
@@ -39,33 +39,33 @@
 
 ![](images/drac.png)  
 
-> drac's password is in their bash history
+> drac's password is in their `.bash_history`
 
-![](images/#.png)  
+![](images/retracted.png)  
 
 ## User flag
 
-> ssh into the machine as the drac user using his password
+> SSH into the machine as the `drac` user using his password
 
 ![](images/ssh.png)  
 
 ## PrivEsc to root
 
-> drac can restart ftp as sudo, essentially running the config file
+> drac can `restart` FTP as sudo, essentially running the config file
 
 ![](images/config.png)
 
-> change on start command to a reverse shell
+> Change `ExecStart` variable to a reverse shell so that it execute upon FTP starting back up.
 
 ![](images/editservice.png)  
 
-> restart daemon and run the sudo command
+> Restart system daemons and run the sudo command
 
 ![](images/servicerestart.png)  
 
 ## Root
 
-> open listener and wait for root
+> Open a listener and wait for root
 
 ![](images/root.png)  
 

