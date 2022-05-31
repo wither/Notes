@@ -4,11 +4,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## ftp
+## FTP
 
 > Login to FTP with a`nonymous:anonymous` and download the files in the `/scripts` directory.
 

@@ -4,23 +4,23 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/ignite.png)  
 
-## website
+## Website
 
 > The website is running `Fuel CMS 1.4`
 
 ![](images/cms.png)  
 
-## ffuf
+## Ffuf
 
 > ffuf found the following:
 
 ![](images/ffuf.png)  
 
-## robots
+## Robots
 
 > `robots.txt` dissallows access to `/fuel/`
 

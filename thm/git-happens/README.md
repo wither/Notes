@@ -4,17 +4,17 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)   
 
-## ffuf
+## Ffuf
 
 > Use ffuf to fuzz the url and discover a hidden .git directory
 
 ![](images/git.png)  
 
-## gitdumper
+## Gitdumper
 
 > Use `gitdumper` to download all of the files in the `.git` directory.
 
@@ -22,7 +22,7 @@
 
 ![](images/mygit.png)  
 
-## password
+## Password
 
 > Use ```git log -p``` to display the patch information, where at the very bottom is initial commit. In the html code, the username and password are hardcoded in JavaScript.
 

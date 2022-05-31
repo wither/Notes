@@ -4,11 +4,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)
 
-## redis-cli
+## Redis-cli
 
 > Connect using `redis-cli`
 
@@ -22,7 +22,7 @@
 
 ![](images/id.png)
 
-## reverse shell
+## Reverse shell
 
 > Use netcat and the `RCE` to get a reverse shell
 

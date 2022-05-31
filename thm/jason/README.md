@@ -4,11 +4,11 @@
 
 ---
 
-## nmap 
+## Nmap 
 
 ![](images/nmap.png)  
 
-## website
+## Website
 
 > The website adds the entered email as `fname` in the text 
 
@@ -19,13 +19,13 @@
 ![](images/url.png)  
 
 
-## cookie
+## Cookie
 
 > The cookie is set as the `base64` `encoded` email
 
 ![](images/cookie.png)  
 
-## exploit
+## Exploit
 
 > Use the following exploit in `node-serialize`, `base64 encode` it and set it as the `session` cookie to get a reverse hell
 

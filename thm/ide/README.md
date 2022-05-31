@@ -4,30 +4,30 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## website
+## Website
 
 > There is a `codiad` login portal on port `62337`
 
 ![](images/login.png)  
 
-## ftp
+## FTP
 
 > Login to FTP with `anonymous:anonymous` and `get .../-`. `drac` reset the pasword for `john`.
 
 ![](images/-.png)  
 
-## login
+## Login
 
 > Login with johns credentials
 
 ![](images/passreset.png)  
 
 
-## exploit
+## Exploit
 
 > Use this RCE exploit in codiad to get a reverse shell
 

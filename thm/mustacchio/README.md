@@ -4,11 +4,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## users
+## Users
 
 > The webserver has a file called `users.bak` in a `/custom/js/` folder.
 
@@ -20,7 +20,7 @@
 
 > Crack the password 
 
-## admin panel
+## Admin panel
 
 > Theres an admin panel on `:8765`, login with the admin credentials.
 
@@ -30,7 +30,7 @@
 
 ![](images/comment.png)  
 
-## xxe
+## XXE
 
 > Which sends the comment as `xml`
 

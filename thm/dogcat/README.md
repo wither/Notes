@@ -4,7 +4,7 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)
 
@@ -43,7 +43,7 @@
 
 ![](images/shell.png)
 
-## nc
+## Nc
 
 > Run a netcat listener and get a shell
 
@@ -69,7 +69,7 @@
 
 ![](images/flag3.png)
 
-## docker PrivEsc
+## Docker PrivEsc
 
 > Run ```cat/proc/1/cgroup```, the room is in a docker container
 

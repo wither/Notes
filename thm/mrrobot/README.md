@@ -3,11 +3,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)
 
-## ffuf
+## Ffuf
 
 >  Scan the url using ffuf
 

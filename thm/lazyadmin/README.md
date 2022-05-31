@@ -4,17 +4,17 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## website
+## Website
 
 > The IP loads default Apache2 `index.html`
 
 ![](images/default.png)  
 
-## ffuf
+## Ffuf
 
 > find the `/content/` folder
 

@@ -3,11 +3,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)
 
-## fuff
+## Fuff
 
 ![](images/ffuf.png)
 

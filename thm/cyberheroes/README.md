@@ -3,11 +3,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## credentials
+## Credentials
 
 > The login credentials are in the `login.html` source
 

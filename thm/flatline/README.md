@@ -4,11 +4,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## rce
+## RCE
 
 > Using this exploit commands can be executed remotely
 
@@ -20,7 +20,7 @@
 
 ![](images/userflag.png)  
 
-## reverse shell
+## Reverse shell
 
 > Create a reverse shell `exe` in `msfvenom` and download it using `powersell` and the RCE.
 

@@ -4,11 +4,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## ffuf
+## Ffuf
 
 > `/admin/` is a login page
 
@@ -22,7 +22,7 @@
 
 ![](images/sshkey.png) 
 
-## john
+## John
 
 > Save the key and pass it to `ssh2john`
 

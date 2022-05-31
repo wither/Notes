@@ -4,25 +4,25 @@
 
 ---
 
-## nmap
+## Nmap
 
 > The service on `5601` is `kibana`
 
 ![](images/nmap.png)
 
-## vuln
+## Vuln
 
 > Copy and paste the first task into google to find kibana CVE
 
 ![](images/cve.png)
 
-## kibana dashboard
+## Kibana dashboard
 
 > Go to kibana dashboard
 
 ![](images/dashboard.png)
 
-## reverse shell
+## Reverse shell
 
 > Exploit the `Timelion` section using `prototype pollution` to execute the reverse shell and get the user account
 ```javascript

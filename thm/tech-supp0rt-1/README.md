@@ -4,17 +4,17 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## ffuf
+## Ffuf
 
 > There is a directory `/test/`
 
 ![](images/test.png)  
 
-## smb
+## SMB
 
 > Enumerate `SMB` shares using `nmap`'s `smb-enum-shares` script.
 
@@ -28,19 +28,19 @@
 
 ![](images/creds.png)  
 
-## cracking
+## Cracking
 
 > Use `cyberchef magic recipe` to crack the password
 
 ![](images/crack.png)  
 
-## exploit
+## Exploit
 
 > Use this exploit to get `RCE`
 
 ![](images/exploit.png)  
 
-## shell
+## Shell
 
 > Use the `RCE` to download and run a reverse shell
 

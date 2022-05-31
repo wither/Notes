@@ -4,23 +4,23 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## ffuf
+## Ffuf
 
 > Nothing found on `:80`, but found `/management/ `on `:445`
 
 ![](images/443.png)  
 
-## website
+## Website
 
 > It's a login page
 
 ![](images/website.png)   
 
-## exploit
+## Exploit
 
 > Use this exploit to upload an `RCE` payload
 
@@ -28,7 +28,7 @@
 
 ![](images/rce.png)  
 
-## reverse shell
+## Reverse shell
 
 > Send a `URL encoded` netcat reverse shell with a listener open to get a reverse shell
 

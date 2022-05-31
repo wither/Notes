@@ -4,11 +4,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## ffuf
+## Ffuf
 
 > `/gallery/` directory
 
@@ -18,7 +18,7 @@
 
 ![](images/login.png)  
 
-## sql injection
+## SQL Injection
 
 > Sending a login request in `BurpSuite` shows the SQL query
 
@@ -28,7 +28,7 @@
 
 ![](images/success.png)  
 
-## exploit
+## Exploit
 
 > Use this exploit to generate a RCE payload
 
@@ -36,7 +36,7 @@
 
 ![](images/rce.png)  
 
-## reverse shell
+## Reverse shell
 
 > Capture the request and pass it into `BurpSuite`, encode reverse shell and send the request.
 
@@ -46,7 +46,7 @@
 
 ![](images/socat.png)  
 
-## database
+## Database
 
 > The database `initialize.php` file contains the MySQL login credentials.
 

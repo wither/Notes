@@ -4,29 +4,29 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## codename
+## Codename
 
-> The website says to use a codename as the user-agent to access more.
+> The website says to use a codename as the `user-agent` to access more.
 
 ![](images/codename.png)  
 
-## burpsuite
+## Burpsuite
 
-> `R` as the user-agent discloses there are 25 other employees (1 for each letter of the alphabet)
+> `R` as the `user-agent` discloses there are 25 other employees (1 for each letter of the alphabet)
 
  ![](images/R.png)  
 
-> Use BurpSuite's `intruder` tool to bruteforce the codename.
+> Use `BurpSuite`'s `intruder` tool to bruteforce the codename.
 
 ![](images/setting.png)   
 
 ![](images/position.png) 
 
-## agent C
+## Agent C
 
 > `user-agent:C` redirects to `agent_C_attention.php`
 
@@ -36,9 +36,9 @@
 
 ![](images/chris.png)  
 
-## hydra
+## Hydra
 
-> Use hydra to bruteforce chris's FTP password
+> Use `hydra` to bruteforce `chris`'s FTP password
 
 ![](images/ftppass.png)  
 

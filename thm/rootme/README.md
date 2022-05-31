@@ -4,17 +4,17 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## ffuf
+## Ffuf
 
 > Found two hidden directories, `/panel/` and `/uploads/`
 
 ![](images/ffuf.png)  
 
-## upload
+## Upload
 
 > `/panel/` is a file upload interface
 

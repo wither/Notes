@@ -4,35 +4,35 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)
 
-## ssh
+## SSH
 
 > Exploit `tomcat` using the `ghostcat` vulnerability in `metasploit` and get the user `skyfuck`'s SSH login.
 
 ![](images/exploitandssh.png)
 
-## scp
+## Scp
 
 > `scp` the files from `/home/skyfuck`
 
 ![](images/scp.png)
 
-## gpgjohn
+## Gpgjohn
 
 > Use `gpg2john` to crack the `.asc` file and get the hash
 
 ![](images/gpgjohn.png)
 
-## john
+## John
 
 > Use `john` to crack the hashes and get the passphrase
 
 ![](images/john.png)
 
-## gpg
+## Gpg
 
 > `gpg --import` the `.asc` file to decrypt the credentials to get a new user.
 

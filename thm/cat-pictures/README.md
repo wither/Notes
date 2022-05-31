@@ -4,11 +4,11 @@
 
 ---
 
-## nmap
+## Nmap
 
 ![](images/nmap.png)  
 
-## ftp
+## FTP
 
 > FTP is `filtered`, `knocking` the ports found on the forum opens it up. Login using `anonymous:anonymous` and download `note.txt`
 
@@ -20,13 +20,13 @@
 
 ![](images/4420.png)  
 
-## netcat
+## Netcat
 
 > Using the password, login using `netcat` and spawn a reverse shell.
 
 ![](images/rs.png)  
 
-## runme
+## Runme
 
 > There's a file in `catlover`'s home called `runme` that asks for a password.
 
