@@ -30,7 +30,7 @@
 
 ## Exploit
 
-> Use this exploit to generate a RCE payload
+> Use this exploit to generate a `RCE` payload
 
 ![](images/exploit.png)
 
@@ -42,7 +42,7 @@
 
 ![](images/burpsocat.png)  
 
-> Have a istener open to get an interactive shell
+> Have a listener open to get an interactive shell
 
 ![](images/socat.png)  
 
@@ -60,7 +60,7 @@
 
 ![](images/mike.png)  
 
-> `linpeas` found `mikes` password in his .`bash_history`
+> `linpeas` found `mike`'s password in his `.bash_history`
 
 ![](images/password.png)  
 
